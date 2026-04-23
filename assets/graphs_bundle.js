@@ -956,7 +956,14 @@ function openSheetFor(lic){
   async function ensurePlayer(lic){
     if(!lic) return null;
     if(PLAYERS[lic]) return PLAYERS[lic];
+    // Multi-club : lire le répertoire des joueurs depuis MANIFEST.players_dir
+    // (ex : "players_8940866"). Fallback : "players" (mono-club historique).
+    const pdir = (MANIFEST && MANIFEST.players_dir) ? MANIFEST.players_dir : 'players';
     const candidates = [
+      new URL(`data/${pdir}/${lic}.json`, document.baseURI).toString(),
+      `./data/${pdir}/${lic}.json`,
+      `data/${pdir}/${lic}.json`,
+      // Fallback sur l'ancien chemin au cas où
       new URL(`data/players/${lic}.json`, document.baseURI).toString(),
       `./data/players/${lic}.json`,
       `data/players/${lic}.json`
