@@ -1,13 +1,14 @@
 {
-  "generated_at": "2026-04-23T12:43:32",
-  "csv": "C:\\Users\\tonyc\\Mon Drive\\ping\\python\\ping_mobile_v8\\core\\24_all_python_from_api.csv",
+  "generated_at": "2026-04-25T11:49:22",
+  "csv": "C:\\Users\\tonyc\\Mon Drive\\ping\\python\\ping_mobile_v8\\24_all_python_from_api.csv",
   "clubs": [
     "8940866",
-    "8940458"
+    "8940458",
+    "8911083"
   ],
-  "n_cards_segments": 16,
-  "n_blocs_tabs": 6,
-  "n_score_players": 130,
+  "n_cards_segments": 24,
+  "n_blocs_tabs": 9,
+  "n_score_players": 209,
   "n_score_gallery_tabs": 0,
   "player_pngs": false
 }

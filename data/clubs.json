@@ -1,16 +1,23 @@
 [
   {
     "id": "8940866",
-    "name": "AS BREVANNAISE TT",
+    "name": "BREVANNAISE AS",
     "slug": "8940866",
     "default": true,
     "data_url": "data/club_8940866.json"
   },
   {
     "id": "8940458",
-    "name": "AL VILLECRESNES TT",
+    "name": "AL VILLECRESNES",
     "slug": "8940458",
     "default": true,
     "data_url": "data/club_8940458.json"
+  },
+  {
+    "id": "8911083",
+    "name": "YERRES ATT",
+    "slug": "8911083",
+    "default": true,
+    "data_url": "data/club_8911083.json"
   }
 ]
